@@ -24,7 +24,6 @@ public class GUI extends javax.swing.JFrame {
 	private static JTextArea historia;
 	private JTextField wiadomosc;
 	private JScrollPane jScrollPaneHistory;
-	private static int port;
 
 	public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null, "\nProgram zaliczeniowy \n[Implementacja komunikata mi�dzy 2-ch i wi�cej uzytkownik�w przez RMI]\nWykonali: [Roman Protas] - [Serhii Kets] - Andrii Sydorenko]");
