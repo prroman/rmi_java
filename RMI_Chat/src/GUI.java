@@ -24,9 +24,10 @@ public class GUI extends javax.swing.JFrame {
 	private static JTextArea historia;
 	private JTextField wiadomosc;
 	private JScrollPane jScrollPaneHistory;
+	private static int port;
 
 	public static void main(String[] args) {
-		JOptionPane.showMessageDialog(null, "\nProgram zaliczeniowy \n[Implementacja komunikata miêdzy 2-ch i wiêcej uzytkowników przez RMI]\nWykonali: [Roman Protas] - [Serhii Kets] - Andrii Sydorenko]");
+		JOptionPane.showMessageDialog(null, "\nProgram zaliczeniowy \n[Implementacja komunikata miï¿½dzy 2-ch i wiï¿½cej uzytkownikï¿½w przez RMI]\nWykonali: [Roman Protas] - [Serhii Kets] - Andrii Sydorenko]");
 		imie = JOptionPane.showInputDialog("Wpisz imie: ");
 		if (imie.length()<2){
 			JOptionPane.showMessageDialog(null, " Imie puste ");	
